@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "6823c462-7263-4043-83ac-de635eec8bb0",
+		"name": "API Entradas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32373846"
+	},
+	"item": [
+		{
+			"name": "Criar entradas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/entradas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"entradas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obter todas as entradas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/entradas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"entradas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obter entradas por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/entradas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"entradas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar entradas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/entradas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"entradas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar entrada",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/entradas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"entradas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
