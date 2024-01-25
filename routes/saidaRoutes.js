@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const ProdutoController = require('../controllers/SaidaController');
+const SaidaController = require('../controllers/SaidaController');
 
 // Rota para criar um novo produto
-router.post('saida', saidaController.createsaida);
+router.post('saida', SaidaController.createSaida);
 
 // Rota para obter todos os saidas
-router.get('/saida', saidaController.getAllsaidas);
+router.get('/saida', SaidaController.getAllSaida);
 
 // Rota para obter um saida pelo ID
-router.get('/saida/:id', saidaController.getsaidaById);
+router.get('/saida/:id', SaidaController.getSaidaById);
 
 // Rota para atualizar um saida
-router.put('/saida/:id', saidaController.updatesaida);
+router.put('/saida/:id', SaidaController.updateSaida);
 
 // Rota para deletar um saida
-router.delete('/saida/:id', saidaController.deletesaida);
+router.delete('/saida/:id', SaidaController.deleteSaida);
 
 module.exports = router;
