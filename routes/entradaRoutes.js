@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const EntradaController = require('../controllers/EntradaController.js');
+const EntradaController = require('../controllers/EntradaController');
 
-// Rota para criar um novo produto
-router.post('/entrada/:id', EntradaController.createEntrada);
+// Rota para criar uma nova entrada
+router.post('/entradas/:id', EntradaController.createEntrada);
 
-// Rota para obter todos os entradas
-router.get('/entrada', EntradaController.getAllEntradas);
+// Rota para obter todas as entradas
+router.get('/entradas', EntradaController.getAllEntradas);
 
-// Rota para obter um entrada pelo ID
-router.get('/entrada/:id', EntradaController.getEntradaById);
+// Rota para obter uma entrada pelo ID
+router.get('/entradas/:id', EntradaController.getEntradaById);
 
-// Rota para atualizar um entrada
-router.put('/entrada/:id', EntradaController.updateEntrada);
+// Rota para atualizar uma entrada
+router.put('/entradas/:id', EntradaController.updateEntrada);
 
-// Rota para deletar um entrada
-router.delete('/entrada/:id', EntradaController.deleteEntrada);
+// Rota para deletar uma entrada
+router.delete('/entradas/:id', EntradaController.deleteEntrada);
 
 module.exports = router;
